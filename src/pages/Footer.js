@@ -11,11 +11,13 @@ function Footer() {
             whileInView={{ x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img
-              src={require("../images/logo/logo.png")}
-              alt="logo"
-              className="mb-3"
-            />
+            <div className="logo-wrap">
+              <img
+                src={require("../images/logo/logo.png")}
+                alt="logo"
+                className="mb-3"
+              />
+            </div>
             <p className="gray-100">
               Please contact us if you have any specific <br /> idea or request.
             </p>
@@ -31,7 +33,7 @@ function Footer() {
               <h6 className="gray-100 text-uppercase mb-2 fw-normal">
                 Company
               </h6>
-              <ul className="p-0">
+              <ul className="p-0 footer-links">
                 <li>How it works</li>
                 <li>Market</li>
                 <li>About Us</li>
@@ -41,7 +43,7 @@ function Footer() {
               <h6 className="gray-100 text-uppercase mb-2 fw-normal">
                 Socials
               </h6>
-              <ul className="p-0">
+              <ul className="p-0 footer-links">
                 <li>Twitter</li>
                 <li>Instagram</li>
                 <li>Facebook</li>

@@ -8,21 +8,28 @@ import Loading from "./pages/Header";
 import Partners from "./pages/Partners";
 import Properties from "./pages/Properties";
 import Subscribe from "./pages/Subscribe";
+import AnimatedBackground from "./components/AnimatedBackground/AnimatedBackground";
+import { MainProvider } from "./context/mainContext";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <NavBar />
-        <Loading />
-        <Partners />
-        <Properties />
-        <AboutUs />
-        <Developers />
-        <Join />
-        <Subscribe />
-        <Footer />
-      </BrowserRouter>
+      <MainProvider>
+        <BrowserRouter>
+          <AnimatedBackground count={50} />
+          <div style={{ position: "relative", zIndex: 1 }}>
+            <NavBar />
+            <Loading />
+            <Partners />
+            <Properties />
+            <AboutUs />
+            <Developers />
+            <Join />
+            <Subscribe />
+            <Footer />
+          </div>
+        </BrowserRouter>
+      </MainProvider>
     </>
   );
 }

@@ -1,0 +1,33 @@
+.AnimatedBackground_container {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.AnimatedBackground_particle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--size, 6px);
+  height: var(--size, 6px);
+  border-radius: 50%;
+  background: hsl(var(--hue, 200), 70%, 50%);
+  opacity: var(--opacity, 0.6);
+  transform: translate3d(0, 0, 0);
+  animation-name: particle-move;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes particle-move {
+  0% {
+    transform: translate3d(var(--sx, 0), var(--sy, 0), var(--sz, 0));
+  }
+  100% {
+    transform: translate3d(var(--ex, 50vw), var(--ey, 50vh), var(--ez, 0));
+  }
+}

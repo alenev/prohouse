@@ -51,7 +51,7 @@ function Loading() {
           className="w-100 my-5"
         >
           <div className="cards">
-            <Card className="bg-black-100 rounded">
+            <Card className="bg-black-100 rounded header-item-card">
               <Card.Body className="p-2">
                 <div className="rounded overflow-hidden position-relative">
                   <Card.Img
@@ -75,7 +75,7 @@ function Loading() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="bg-black-100">
+            <Card className="bg-black-100 header-item-card">
               <Card.Body className="p-2">
                 <div className="rounded overflow-hidden position-relative">
                   <Card.Img

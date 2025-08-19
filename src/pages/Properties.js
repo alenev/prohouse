@@ -131,7 +131,7 @@ function Properties() {
           >
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -160,7 +160,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -190,7 +190,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -217,7 +217,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -244,7 +244,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -271,7 +271,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -298,7 +298,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -327,7 +327,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -357,7 +357,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -384,7 +384,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -411,7 +411,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -438,7 +438,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-black-100 rounded property-item-card">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img

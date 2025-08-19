@@ -1,0 +1,41 @@
+.ThemeToggle_container {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.ThemeToggle_container .button {
+  border: 0;
+  outline: 0;
+  width: 44px;
+  height: 44px;
+  background-color: #ededed;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color .3s ease;
+}
+.ThemeToggle_container .button:hover {
+  background-color: #e2e2e2;
+}
+
+.ThemeToggle_button:hover {
+  background-color: #e2e2e2;
+}
+
+.ThemeToggle_sun, .ThemeToggle_moon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  transition: transform .6s cubic-bezier(.2,.8,.2,1);
+}
+
+.ThemeToggle_sun {
+  transform: rotate(180deg);
+}
+
+.ThemeToggle_moon {
+  transform: rotate(1turn);
+}
+
